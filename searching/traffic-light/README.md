@@ -1,4 +1,4 @@
-# Problem Name
+# Traffic Light
 
 **Platform:** Codeforces
 **Problem:** C. Traffic Light
