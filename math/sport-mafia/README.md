@@ -1,11 +1,17 @@
 # Sport Mafia
 
 **Platform:** Codeforces
+
 **Problem:** B. Sport Mafia
+
 **Link:** https://codeforces.com/problemset/problem/1195/B
+
 **Difficulty:** 1000
+
 **Tags:** math, brute force, binary search
+
 **Date Solved:** 2026-03-09
+
 
 ---
 

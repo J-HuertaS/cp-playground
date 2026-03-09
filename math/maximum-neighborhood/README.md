@@ -1,10 +1,15 @@
 # Maximum Neighborhood
 
 **Platform:** Codeforces
+
 **Problem:** A. Maximum Neighborhood
+
 **Link:** https://codeforces.com/problemset/problem/2170/A
+
 **Difficulty:** 800
+
 **Tags:** math, implementation, brute force, bitmasks, greedy
+
 **Date Solved:** 2026-03-09
 
 ---

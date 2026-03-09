@@ -1,10 +1,15 @@
 # Traffic Light
 
 **Platform:** Codeforces
+
 **Problem:** C. Traffic Light
+
 **Link:** https://codeforces.com/problemset/problem/1744/C
+
 **Difficulty:** 1000
+
 **Tags:** binary search, two pointers, implementation
+
 **Date Solved:** 2026-03-09
 
 ---
