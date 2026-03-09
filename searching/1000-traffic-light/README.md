@@ -1,4 +1,4 @@
-# Problem Name
+# Traffic Light
 
 **Platform:** Codeforces
 **Problem:** C. Traffic Light
@@ -58,6 +58,7 @@ Constraints:
 For each test case, print a single integer representing the minimum number of seconds required to guarantee that the traffic light will become green.
 
 If the current color is already green (g), the answer is 0 because you can cross the road immediately.
+
 ---
 
 ## Explanation of the Solution
