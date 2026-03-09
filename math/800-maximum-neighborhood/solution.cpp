@@ -19,7 +19,7 @@ int main() {
 
     // loop the entries
     while(t--) {
-        long long n;
+        int n;
         cin >> n;
 
         // base case
