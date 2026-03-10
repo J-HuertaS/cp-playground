@@ -1,10 +1,15 @@
 # Stones on the Table
 
 **Platform:** Codeforces
+
 **Problem:** A. Stones on the Table
+
 **Link:** https://codeforces.com/problemset/problem/266/A
+
 **Difficulty:** 800
+
 **Tags:** implementation, strings
+
 **Date Solved:** 2026-03-10
 
 ---
