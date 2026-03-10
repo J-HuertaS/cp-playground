@@ -1,10 +1,15 @@
 # Word Capitalization
 
 **Platform:** Codeforces
+
 **Problem:** A. Word Capitalization
+
 **Link:** https://codeforces.com/problemset/problem/281/A
+
 **Difficulty:** 800
+
 **Tags:** implementation, strings
+
 **Date Solved:** 2026-03-10
 
 ---
