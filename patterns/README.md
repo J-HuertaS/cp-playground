@@ -86,6 +86,7 @@ Signals:
 - Bit++
 - Stones on the Table
 - Arrival of the General
+- Vanya and Fence
 
 ---
 
@@ -193,3 +194,77 @@ Signals:
 
 - Word Capitalization
 - Nearly Lucky Number
+
+# 8. Grid Distance (Manhattan Distance)
+
+## Idea
+
+Measure distance in a grid using:
+
+|x1 - x2| + |y1 - y2|
+
+This represents the minimum number of steps needed to move between two cells when movement is allowed in four directions.
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- working on a grid
+- moving objects toward a target position
+- operations move elements one step at a time
+
+## Example Problems
+
+- Beautiful Matrix
+
+---
+
+# 9. Distinct Elements / Set Usage
+
+## Idea
+
+Use a data structure that stores only unique elements (such as a set) to count how many distinct values exist in a collection.
+
+This avoids manually checking duplicates.
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- you need the number of unique elements
+- duplicates should be ignored
+- the input size is small or bounded
+
+Typical structures used:
+
+- set
+- unordered_set
+- boolean arrays for small alphabets
+
+## Example Problems
+
+- Boy or Girl
+
+---
+
+# 10. Mathematical Index Mapping
+
+## Idea
+
+Instead of constructing a sequence explicitly, determine the value at a specific position using mathematical formulas.
+
+This pattern is useful when the sequence follows a predictable structure but the constraints are too large to generate it directly.
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- constraints are extremely large (e.g., up to 10^12)
+- the sequence is defined by a rule
+- you are asked for the element at position `k`
+
+In these cases, simulate the sequence **mathematically**, not physically.
+
+## Example Problems
+
+- Even Odds
