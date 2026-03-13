@@ -1,4 +1,9 @@
 # Competitive Programming Repository
+
+![Problems Solved](https://img.shields.io/badge/problems_solved-24-blue)
+![Language](https://img.shields.io/badge/language-C++-00599C)
+![Platform](https://img.shields.io/badge/platform-Codeforces-orange)
+
 This repository contains my solutions to **algorithmic and competitive programming problems**, mainly from HackerRank and Codeforces.
 The goal is to **build strong problem-solving skills**, prepare for technical interviews, and maintain a structured archive of solutions across multiple topics.
 
@@ -40,6 +45,14 @@ Each solution includes:
 - Develop fluency with data structures and performance-oriented solutions
 - Track consistent daily/weekly practice
 - Demonstrate commitment to learning and improving in algorithmic challenges
+
+## Progress
+
+| Difficulty | Problems Solved |
+|------------|----------------|
+| 800–900    | 20 |
+| 1000-1100   | 4 |
+| 1200-1300  | 0 |
 
 ## Repository Structure
 ```bash
