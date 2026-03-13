@@ -268,3 +268,40 @@ In these cases, simulate the sequence **mathematically**, not physically.
 ## Example Problems
 
 - Even Odds
+
+
+# 11. Layer Processing / Level Simulation
+
+## Idea
+
+Instead of simulating operations one by one, process the structure **by layers (levels)**.
+
+When multiple elements contribute equally in each step, we can group many operations together and process them at once.
+
+For example, if there are `m` active elements and we advance `d` levels, the total gain is:
+
+```
+gain = m × d
+```
+
+This allows processing large numbers of operations in constant time instead of iterating step by step.
+
+## When to Recognize It
+
+Look for this pattern when:
+
+* elements can be visualized as **stacks, heights, or levels**
+* each iteration affects **all active elements equally**
+* the state changes only when some elements **become exhausted**
+* simulating step by step would be too slow
+
+Typical approach:
+
+* sort values or group them by height
+* process differences between consecutive levels
+* track how many elements remain active
+
+## Example Problems
+
+* Buying Lemonade
+
