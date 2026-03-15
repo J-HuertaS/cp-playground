@@ -115,6 +115,7 @@ Look for:
 ## Example Problems
 
 - Drinks
+- Kuriyama Mirai's Stones
 
 ---
 
