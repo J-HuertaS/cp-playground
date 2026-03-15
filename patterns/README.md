@@ -305,3 +305,44 @@ Typical approach:
 
 * Buying Lemonade
 
+
+# 12. Sliding Window on Sorted Data (Two Pointers)
+
+## Idea
+
+When a constraint depends on the **difference between the minimum and maximum values** in a subset, sorting the data can transform the problem into finding a **valid contiguous segment**.
+
+After sorting, we maintain a **window [left, right]** that represents the current valid group.
+
+Two pointers are used to:
+
+- expand the window (right++)
+- shrink the window (left++)
+
+while maintaining the required constraint.
+
+A running value (such as a sum) can be maintained to efficiently compute the best answer.
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- constraints involve **difference between values**
+- elements can be **sorted to simplify the condition**
+- you must maximize or minimize something inside a **valid range**
+- the subset becomes a **continuous segment after sorting**
+
+Typical signals:
+
+- `max - min ≤ k`
+- `difference < d`
+- maximize/minimize sum within a range
+
+---
+
+## Example Problems
+
+- Kefa and Company
+
