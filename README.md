@@ -1,6 +1,6 @@
 # Competitive Programming Repository
 
-![Problems Solved](https://img.shields.io/badge/problems_solved-26-blue)
+![Problems Solved](https://img.shields.io/badge/problems_solved-27-blue)
 ![Language](https://img.shields.io/badge/language-C++-00599C)
 ![Platform](https://img.shields.io/badge/platform-Codeforces-orange)
 
@@ -54,6 +54,7 @@ Each solution includes:
 | 1000-1100   | 4 |
 | 1200-1300  | 1 |
 | 1400-1500  | 1 |
+| 1600-1700  | 1 |
 
 ## Repository Structure
 ```bash
