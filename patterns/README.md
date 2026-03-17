@@ -434,3 +434,41 @@ Typical tasks:
 ## Example Problems
 
 - Kefa and Park
+
+
+# 15. BFS on State Space (Shortest Path in Implicit Graph)
+
+## Idea
+
+Instead of receiving an explicit graph as input, the graph is defined by **states and transitions between them**.
+
+Each state represents a possible configuration of the problem.
+
+Transitions define how we move from one state to another.
+
+If every transition has the same cost, we can use **Breadth-First Search (BFS)** to find the minimum number of operations needed to reach a target state.
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- the problem asks for the **minimum number of operations**
+- operations transform a **state into another state**
+- states can be treated as nodes in a graph
+- transitions define edges between states
+- all operations have **equal cost**
+
+Typical signals:
+
+- minimum number of moves
+- minimum operations
+- transformation problems
+- state exploration
+
+---
+
+## Example Problems
+
+- Two Buttons
