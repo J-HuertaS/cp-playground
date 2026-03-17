@@ -347,3 +347,90 @@ Typical signals:
 
 - Kefa and Company
 
+# 13. Binary Search on the Answer
+
+## Idea
+
+Instead of searching within a sorted array, we binary search the **space of possible answers**.
+
+We define a function:
+
+can(x)
+
+that checks whether it is possible to achieve a solution with value `x`.
+
+The key requirement is **monotonicity**:
+
+- if `can(x)` is true
+- then `can(x-1)` is also true
+
+or the opposite direction depending on the problem.
+
+This allows us to use binary search to find the maximum or minimum feasible answer.
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- the problem asks for a **maximum or minimum possible value**
+- the answer range is **very large**
+- you can design a **feasibility check**
+- brute force over all answers would be too slow
+
+Typical signals:
+
+- maximize production
+- minimize cost
+- maximize number of items
+- constraints up to `10^12` or larger
+
+---
+
+## Example Problems
+
+- Hamburgers
+
+# 14. DFS with State Propagation (Tree Traversal)
+
+## Idea
+
+Traverse a tree using DFS while carrying additional information along the path.
+
+Instead of only visiting nodes, we maintain a **state variable** that represents information about the path from the root to the current node.
+
+Examples of state:
+
+- number of consecutive cats
+- current sum of weights
+- maximum value seen so far
+- depth of the node
+
+At each step the state is updated and passed to the recursive call.
+
+If a constraint is violated, the search can stop early (pruning).
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- the structure is a **tree**
+- conditions depend on the **path from the root**
+- you must track some value **along the traversal**
+- invalid paths can be **pruned early**
+
+Typical tasks:
+
+- counting valid leaves
+- path constraints
+- path sums
+- tree exploration problems
+
+---
+
+## Example Problems
+
+- Kefa and Park
