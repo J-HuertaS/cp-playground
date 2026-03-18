@@ -472,3 +472,48 @@ Typical signals:
 ## Example Problems
 
 - Two Buttons
+
+# 16. Range Frequency Counting (Difference Array)
+
+## Idea
+
+When many queries affect ranges `[l, r]`, updating every element inside the range would be too slow.
+
+Instead we use a **difference array**.
+
+For each range:
+
+diff[l] += 1  
+diff[r+1] -= 1  
+
+After processing all queries, a prefix sum reconstructs how many times each position was affected.
+
+This technique reduces many range updates from:
+
+O(n × q)
+
+to
+
+O(n + q)
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- there are many **range updates**
+- ranges affect all elements between `l` and `r`
+- you need the **final frequency of each position**
+
+Typical signals:
+
+- many queries
+- constraints up to `2e5` or higher
+- naive range iteration would be too slow
+
+---
+
+## Example Problems
+
+- Little Girl and Maximum Sum
