@@ -144,6 +144,7 @@ Signals:
 
 - Calculating Function
 - Soldier and Bananas
+- Fence
 
 ---
 
