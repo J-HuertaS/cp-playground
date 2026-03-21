@@ -518,3 +518,80 @@ Typical signals:
 ## Example Problems
 
 - Little Girl and Maximum Sum
+
+# 17. DP - Take or Skip (House Robber Pattern)
+
+## Idea
+
+For each value `x`, decide whether to:
+
+- take it → gain `x * frequency[x]` but skip adjacent values
+- skip it → move to the next value
+
+This creates a dependency where choosing an element prevents choosing its neighbors.
+
+The problem is solved by building a DP array where each state represents the best result up to a certain value.
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- choosing an element **disables adjacent elements**
+- decisions are **binary (take or skip)**
+- elements can be **grouped by value or position**
+- the problem resembles:
+  - "cannot take neighbors"
+  - "maximum sum without adjacent elements"
+
+Typical signals:
+
+- adjacency restrictions
+- maximize sum with constraints
+- frequency transformation helps simplify the problem
+
+---
+
+## Example Problems
+
+- Boredom
+
+# 18. Mathematical Reduction to Prime Check
+
+## Idea
+
+Transform the problem using a mathematical observation that simplifies the condition.
+
+Instead of directly counting divisors, identify that:
+
+- a number has exactly 3 divisors if and only if it is the square of a prime
+
+This reduces the problem to:
+
+- checking if a number is a perfect square
+- checking if its square root is prime
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- the problem involves number of divisors
+- constraints are very large (up to 10^12 or more)
+- brute force divisor counting is too slow
+- a mathematical property can simplify the condition
+
+Typical signals:
+
+- divisor-related problems
+- perfect squares
+- prime numbers
+- constraints that suggest precomputation
+
+---
+
+## Example Problems
+
+- T-primes
