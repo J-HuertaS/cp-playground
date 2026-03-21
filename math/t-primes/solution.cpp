@@ -16,7 +16,7 @@ void generatePrimes()
         if (prime[p] == true) {
             
             // Update all multiples of p
-            for (int i = p * 2; i <= MAX_LIMIT; i += p)
+            for (int i = p * p; i <= MAX_LIMIT; i += p)
                 prime[i] = false;
         }
     }
