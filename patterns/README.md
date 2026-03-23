@@ -595,3 +595,38 @@ Typical signals:
 ## Example Problems
 
 - T-primes
+
+# 19. Greedy on Segments (Same Sign Grouping)
+
+## Idea
+
+Group consecutive elements that share a common property (e.g., same sign).
+
+Instead of picking all elements, select the **best element from each group**.
+
+This ensures:
+
+- maximum length of valid structure
+- optimal contribution per segment
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- elements can be grouped (same sign, same type, etc.)
+- you must alternate or switch between groups
+- you need to maximize a value while keeping structure constraints
+
+Typical signals:
+
+- alternating sequences
+- positive/negative grouping
+- segments with same property
+
+---
+
+## Example Problems
+
+- Alternating Subsequence
