@@ -1,6 +1,6 @@
 # Competitive Programming Repository
 
-![Problems Solved](https://img.shields.io/badge/problems_solved-35-blue)
+![Problems Solved](https://img.shields.io/badge/problems_solved-36-blue)
 ![Language](https://img.shields.io/badge/language-C++-00599C)
 ![Platform](https://img.shields.io/badge/platform-Codeforces-orange)
 
@@ -52,7 +52,7 @@ Each solution includes:
 |------------|----------------|
 | 800–900    | 20 |
 | 1000-1100   | 5 |
-| 1200-1300  | 4 |
+| 1200-1300  | 5 |
 | 1400-1500  | 5 |
 | 1600-1700  | 1 |
 

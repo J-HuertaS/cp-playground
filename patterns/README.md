@@ -630,3 +630,35 @@ Typical signals:
 ## Example Problems
 
 - Alternating Subsequence
+
+
+# 20. Binary Search on Prefix Sums
+
+## Idea
+
+Transform the problem into a prefix sum array, then use binary search to find the position where a condition is satisfied.
+
+Instead of scanning linearly, we locate the answer in logarithmic time.
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- elements form cumulative ranges
+- queries ask "where does x belong?"
+- ranges are continuous and increasing
+- prefix sums can represent boundaries
+
+Typical signals:
+
+- "first position where ≥ x"
+- mapping values to segments
+- cumulative sums
+
+---
+
+## Example Problems
+
+- Worms
