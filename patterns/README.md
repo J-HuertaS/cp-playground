@@ -662,3 +662,47 @@ Typical signals:
 ## Example Problems
 
 - Worms
+
+
+# 21. Prefix Sum Partition Counting (Target Multiples)
+
+## Idea
+
+Use prefix sums to detect positions where the cumulative sum reaches specific fractions of the total sum.
+
+For problems involving splitting an array into equal parts:
+
+- total sum = S
+- each part must sum to S / k
+
+We track prefix sums and count how many times we reach:
+
+- S/k
+- 2S/k
+- ...
+
+We accumulate counts to determine valid partitions.
+
+---
+
+## When to Recognize It
+
+Look for this pattern when:
+
+- the array must be split into equal-sum segments
+- the problem asks for number of ways to partition
+- constraints are large → O(n) needed
+- prefix sums can represent cumulative segments
+
+Typical signals:
+
+- "split into k equal parts"
+- "count number of ways"
+- "equal sum segments"
+- total sum divisibility condition
+
+---
+
+## Example Problems
+
+- Number of Ways
